@@ -74,10 +74,10 @@ https://github.com/fujianzz/mt7668-armbian.git
         -f Makefile.x86
    ```
    ```bash
-   make -C /home/zoozobib/Downloads/m16s/linux-6.1.y/ \
+   make -C /home/xxx/Downloads/m16s/linux-6.1.y/ \
      M=$(pwd) \
      ARCH=arm64 \
-     CROSS_COMPILE=/home/zoozobib/Downloads/m16s/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu- \
+     CROSS_COMPILE=/home/xxx/Downloads/m16s/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu- \
      PLATFORM_FLAGS="" \
      modules -j8
    ```
