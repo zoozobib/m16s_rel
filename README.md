@@ -64,7 +64,11 @@ https://github.com/fujianzz/mt7668-armbian.git
 
    ```bash
    export ARCH=arm64
-export CROSS_COMPILE=/home/xxx/Downloads/m16s/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-
+   ```
+   ```bash
+   export CROSS_COMPILE=/home/xxx/Downloads/m16s/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-
+   ```
+   ```bash
    make EXTRA_CFLAGS="-w -I/path/to/your/toolchain/aarch64-none-linux-gnu/libc/usr/include/linux/" \
         CROSS_COMPILE=/path/to/your/toolchain/bin/aarch64-none-linux-gnu- \
         -f Makefile.x86
