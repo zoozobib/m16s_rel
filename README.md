@@ -1,4 +1,4 @@
-# 天猫魔盒M16S Armbian WiFi驱动编译与部署指南 (m16s_rel)
+# 天猫魔盒M16S Armbian MT7668 WiFi驱动编译与部署指南 (m16s_rel)
 
 本文档记录了为天猫魔盒M16S在Armbian系统上编译和部署MT7668 WiFi驱动的过程和注意事项。
 
