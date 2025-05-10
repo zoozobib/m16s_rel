@@ -73,6 +73,14 @@ https://github.com/fujianzz/mt7668-armbian.git
         CROSS_COMPILE=/path/to/your/toolchain/bin/aarch64-none-linux-gnu- \
         -f Makefile.x86
    ```
+   ```bash
+   make -C /home/zoozobib/Downloads/m16s/linux-6.1.y/ \
+     M=$(pwd) \
+     ARCH=arm64 \
+     CROSS_COMPILE=/home/zoozobib/Downloads/m16s/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu- \
+     PLATFORM_FLAGS="" \
+     modules -j8
+   ```
 
    *(请将 `/path/to/your/toolchain/` 替换为你的实际工具链路径)*
 
